@@ -57,14 +57,14 @@ function App() {
             </div>
           ))}
         </div>
-        {coordinates.length === 5 && (
+        {/* {coordinates.length === 5 && (
           <>
             <div className='line' style={getLineStyles(coordinates[0], coordinates[3])}></div>
             <div className='line' style={getLineStyles(coordinates[3], coordinates[1])}></div>
             <div className='line' style={getLineStyles(coordinates[1], coordinates[4])}></div>
             <div className='line' style={getLineStyles(coordinates[4], coordinates[2])}></div>
           </>
-        )}
+        )} */}
       </div>
       <div id="blast"><button id="lastbutton">Apply now for &#x20B9;2999 </button></div>
     </div>
