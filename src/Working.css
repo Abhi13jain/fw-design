@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#maino{
+    width:1440px;
+    height:915px;
+}
+h1{
+    background:linear-gradient(to bottom,#B872D0, #372FAA);
+    background-clip:text;
+    color:transparent;
+    font-size: 36px;
+    margin-bottom:5%;
+}
+.lastComponent {
+  width: 1366px;
+  height: 629px;
+  background: #FFFFFF;
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lastComponent img{
+  height: 64px;
+  margin-right: 16px;
+  z-index: 1;
+  position: relative;
+}
+
+.lastComponent-content {
+  position: absolute;
+  width: 1142px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 38px;
+}
+
+.lastComponent-content-div {
+  display: flex;
+}
+
+.lastComponent-content-div-text {
+  width: 275px;
+  height: 100px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150E42;
+}
+
+.line{
+  position: absolute;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.022); 
+  background-image: linear-gradient(90.24deg, rgba(63, 55, 201, 0.74) -11.5%, rgba(177, 66, 64, 0.53) 169.22%);
+  z-index: 0;
+}
+#blast{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#lastbutton{
+    height:50px;
+    width:225px;
+    top:5089px;
+    left:608px;
+    border:none;
+    border-radius:10px;
+    background:linear-gradient(to right,#800080,#7E267E) ;
+    color:white;
+}

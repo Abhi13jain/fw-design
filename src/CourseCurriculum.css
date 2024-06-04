@@ -1,0 +1,94 @@
+#outer {
+    margin-top:80px;
+    width: 1400px;
+    padding: 20px;
+    background-color: #FCF5FE;
+    text-align: center;
+    padding-bottom:60px;
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#H {
+    border: 1px solid #992E9D;
+    border-radius: 20px;
+    padding: 12px 24px;
+    color: #992E9D;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#sub h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+#a {
+    background: linear-gradient(to right, #d633ff, #f77b99, #ffcc33);
+    background-clip: text;
+    color: transparent;
+}
+
+#b {
+    color: rgb(75, 74, 74);
+}
+
+.curriculum-list {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.curriculum-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.curriculum-item:last-child {
+    border-bottom: none;
+}
+
+.curriculum-info h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #333;
+    text-align:left;
+}
+
+.curriculum-info p {
+    margin: 5px 0 0;
+    color: #777;
+}
+
+.curriculum-action button {
+    background-color: #f7f0fe;
+    color: #b565f5;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.curriculum-action button:before {
+    content: '👁️';
+    margin-right: 8px;
+}

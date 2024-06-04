@@ -1,0 +1,86 @@
+#main{
+    width:1440px;
+    height:915px;
+}
+h1 {
+    text-align: center;
+}
+
+.h1i {
+    color: #686972;
+}
+
+.h1ii {
+    color: #992E9D;
+}
+
+#mains {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainc {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    border-radius: 12px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#main1 {
+    border: 1px solid #F9EBFC;
+    padding-top: 2%;
+    color: #450D45;
+}
+
+#main2 {
+    border: 1px solid #FFF4C5;
+    padding-top: 2%;
+    color: #481900;
+}
+
+.mainc img {
+    height: 300px;
+    width: 300px;
+}
+
+#under {
+    color: #686972;
+    margin-left:5%;
+    text-align:left;
+    font-size: xx-small;
+}
+
+#ov {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ov1,
+.ov2 {
+    width:100px;
+    font-size: xx-small;
+    padding-right: 1%;
+    color: #992E9D;
+    border: none;
+    background-color: #F4D6F8;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2px; /* Adjust padding for smaller size */
+    flex: 1;
+    margin-right:5%;
+    /* Set a fixed height for the image container */
+    /* display: flex;
+    align-items: center;*/
+} 
+.ov1 img,.ov2 img{
+    height:10px;
+    max-width: 100%;
+}
