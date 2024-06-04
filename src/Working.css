@@ -52,13 +52,6 @@ h1{
   color: #150E42;
 }
 
-.line{
-  position: absolute;
-  height: 1px;
-  background-color: rgba(0, 0, 0, 0.022); 
-  background-image: linear-gradient(90.24deg, rgba(63, 55, 201, 0.74) -11.5%, rgba(177, 66, 64, 0.53) 169.22%);
-  z-index: 0;
-}
 #blast{
     display:flex;
     justify-content: center;
